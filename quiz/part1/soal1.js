@@ -18,13 +18,20 @@
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+let nama = "Test", peran = "penyihir";
 
-let nama = "", peran = "";
-
-if (nama === '') {
-  console.log("nama wajib diisi");
-} else if (peran === '') {
-  console.log("tolong masukan peran")
+if (nama === "") {
+  console.log("nama wajib diisi")
+} else if (peran === "") {
+  console.log("Pilih Peranmu untuk memulai game")
+} else {
+  if (peran === "ksatria") {
+    console.log(`halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`)
+  } else if (peran === 'penyihir') {
+    console.log(`Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`)
+  } else if (peran === "tabib") {
+    console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`)
+  } else {
+    console.log("tapi kayaknya kamu jadi bot aja ya")
+  }
 }
-
-//code disini gunakan console.log untuk outputnya
