@@ -23,6 +23,8 @@ let nama = "", peran = "";
 
 if (nama === '') {
   console.log("nama wajib diisi");
+} else if (peran === '') {
+  console.log("tolong masukan peran")
 }
 
 //code disini gunakan console.log untuk outputnya
