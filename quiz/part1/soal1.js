@@ -15,13 +15,14 @@
 //mudah dalam memasukan variabel ke dalam string
 //tapi tanpa backtick juga ga masalah sih yg penting output sesuai
 
+// algoritma
+//isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+
 
 let nama = "", peran = "";
 
-if (nama === "") {
-  console.log("nama wajib diisi")
-} else {
-  
+if (nama === '') {
+  console.log("nama wajib diisi");
 }
 
 //code disini gunakan console.log untuk outputnya
